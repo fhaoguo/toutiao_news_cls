@@ -31,3 +31,9 @@ most_simple_way.py
 
 ## NeZha 模型分类实现
 详情点击[nezha_head_base](./nezha_head_base)
+
+## Focal Loss优化版本
+详情点击[nezha_head_focalloss](./nezha_head_focalloss)
+
+## FGM PGD对抗训练版本
+详情点击[nezha_head_fl_fgm_pgd](./nezha_head_fl_fgm_pgd)

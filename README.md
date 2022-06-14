@@ -9,6 +9,9 @@
 | Bert(epoches=2)          | 0.5709 | 0.5698 | 0.5762 | 0.5690 |
 | BertWithHead(epoches=2)  | 0.5536 | 0.5815 | 0.5514 | 0.5654 |
 | NeZhaWithHead(epoches=2) | 0.5524 | 0.5774 | 0.5439 | 0.5622 |
+| FocalLoss(epoches=1)     |   |   |   |   |
+| 对抗训练FGM(epoches=1)   |   |   |   |   |
+| 对抗训练PGD(epoches=1)   |   |   |   |   |
 
 ## 数据分析及预处理模块
 ```
@@ -32,8 +35,8 @@ most_simple_way.py
 ## NeZha 模型分类实现
 详情点击[nezha_head_base](./nezha_head_base)
 
-## Focal Loss优化版本
+## Focal Loss优化版本(耗时有些长所以仅限于跑通代码，没等代码跑完)
 详情点击[nezha_head_focalloss](./nezha_head_focalloss)
 
-## FGM PGD对抗训练版本
+## FGM PGD对抗训练版本(耗时有些长所以仅限于跑通代码，没等代码跑完)
 详情点击[nezha_head_fl_fgm_pgd](./nezha_head_fl_fgm_pgd)
